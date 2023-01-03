@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+    color: blue;
+}
+.signin-btn{
+    color: white;
+    background-color: rgba(18, 72, 221, 0.671);
+    border: 2px solid;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/* body content */
+
+.intro-section{
+    display: flex;
+
+}
+.left-section{
+    margin-top:100px ;
+    margin-left: 100px;
+}
+h1{
+    display: inline;
+    /* margin-left: 110px; */
+    font-size: 50px;
+    color: rgb(140, 0, 255);
+    
+}
+h4{
+color: grey;
+
+}
+.learn-more-btn{
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(140, 0, 255);
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.imgs-div{
+    background-color: rgb(134, 104, 163);
+    border: 0px solid;
+    border-radius: 30px;
+    background-position-y: 100px;
+   
+
+}
+img[alt="vector-img" ]{
+    position:absolute;
+    top: 400px;
+    right: 765px;
+}
+img[ alt="vector-dot"]{
+    position:absolute;
+    top: 400px;
+    right: 770px;
+}
+
+img[ alt="intro-img"]{
+    height: 600px;
+  
+}
